@@ -724,6 +724,10 @@ a {
     align-items: center;
 }
 
+.img-size {
+    width: 30%;
+}
+
 .hero-bloc-text-sub {
     font-size: 36px;
 }
@@ -870,7 +874,7 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/top-banner.webp");
+    background-image: url("img/main-banner.webp");
 }
 
 .bg-presentation {
