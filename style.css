@@ -735,6 +735,10 @@ a {
     margin: 50px;
 }
 
+.text-style {
+    color: white!important;
+}
+
 .hero-bloc-text-sub {
     font-size: 36px;
 }
