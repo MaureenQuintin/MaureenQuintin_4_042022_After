@@ -90,11 +90,6 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -651,8 +646,9 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000;
 }
+
 
 .container {
     max-width: 1000px;
@@ -660,6 +656,73 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.presentation-bg {
+    background-color: rgba(0, 0, 0, .5);
+    padding: 50px 30px;
+}
+
+.title2-fontsize {
+    font-size: 2.5rem;
+    color: #000000;
+}
+
+.text-fontsize {
+    font-size: 2rem;
+}
+
+.text-pad {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.description-fontsize {
+    font-size: 1.7rem;
+}
+
+.citation-width {
+    text-align: center;
+    padding-left: 88px;
+    padding-right: 88px;
+}
+
+.citation-style {
+    font-style: italic;
+}
+
+.citation-fontsize {
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container-position {
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.text-position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-display {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-position {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hero-bloc-text-sub {
@@ -676,12 +739,7 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
-
 .tight-width-whitespace {
-    max-width: 600px;
     margin: auto auto auto auto;
 }
 
@@ -753,7 +811,6 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -813,16 +870,12 @@ h4 {
     background-image: url("img/dots-bg.png");
 }
 
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
-
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/top-banner.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/middle-banner.webp");
 }
 
 @media (max-width: 1024px) {
